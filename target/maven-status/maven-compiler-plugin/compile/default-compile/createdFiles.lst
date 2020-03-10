@@ -1,0 +1,10 @@
+dto\BondTradeDto.class
+dto\StockTradeDto.class
+dto\StockMarketDataDto.class
+domain\RiskFactorType.class
+dto\TradeDto.class
+domain\TimeSerie.class
+domain\TradeType.class
+dto\RiskFactorDto.class
+dto\IDocument.class
+dto\ConfigurationDto.class
