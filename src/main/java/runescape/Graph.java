@@ -1,10 +1,11 @@
 package runescape;
 
+
 import java.time.LocalDateTime;
-import java.util.Map;
+import java.util.List;
 
 public class Graph {
-    public int itemId;
-    public Map<LocalDateTime, Float> daily;
-    public Map<LocalDateTime, Float> average;
+    public int id;
+    public List<Pair<LocalDateTime, Float>> daily;
+    public List<Pair<LocalDateTime, Float>> average;
 }
