@@ -5,7 +5,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document
-public class ConfigurationDto implements IDocument {
+public class ConfigurationDto {
     @Id
     private ObjectId _id;
     private String key;

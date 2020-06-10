@@ -1,5 +1,7 @@
 package runescape;
 
-public class Runeday {
-    public int lastConfigUpdateRuneday;
+import domain.IDocument;
+
+public class Runeday implements IDocument {
+    public Integer lastConfigUpdateRuneday;
 }

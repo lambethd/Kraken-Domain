@@ -1,8 +1,9 @@
 package runescape;
 
+import domain.IDocument;
 import org.springframework.data.annotation.Id;
 
-public class Item {
+public class Item implements IDocument {
     public String iconLink;
     public String largeIconLink;
     @Id
@@ -14,4 +15,6 @@ public class Item {
     public ItemMovement current;
     public ItemMovement today;
     public Boolean members;
+    public Integer lastUpdatedRuneDay;
+    public String wikiName;
 }
