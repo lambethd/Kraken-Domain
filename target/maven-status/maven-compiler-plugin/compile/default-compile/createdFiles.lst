@@ -1,12 +1,15 @@
 domain\AuthScope.class
+domain\settings\FlippingRoiColourSetting.class
 domain\TimeSerie.class
 runescape\Catalogue.class
 runescape\Item.class
+domain\UserSettings.class
 domain\RiskFactorType.class
 runescape\ItemMovement.class
 portfolio\Position.class
 portfolio\Spread.class
 runescape\Pair.class
+domain\settings\ISetting.class
 portfolio\TradeStatus.class
 runescape\ItemCategory.class
 domain\TrackedDocument.class

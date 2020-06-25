@@ -1,7 +1,7 @@
 package runescape;
 
 public class UrlConstants {
-    public static String URL_PREFIX = "http://services.runescape.com/m=itemdb_rs/api/";
+    public static String URL_PREFIX = "https://secure.runescape.com/m=itemdb_rs/api/";
     public static String INFO_SUFFIX = "info.json";
     public static String CATALOGUE_SUFFIX = "catalogue/category.json?category={CATEGORY_ID}";
     public static String ITEM_SUFFIX = "catalogue/items.json?category={CATEGORY_ID}&alpha={ALPHA}&page={PAGE_ID}";

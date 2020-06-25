@@ -6,6 +6,7 @@ public class User implements IDocument{
     private String password;
     private String firstName;
     private String lastName;
+    private String email;
     private AuthScope scope;
 
     public String getId() {
@@ -46,6 +47,14 @@ public class User implements IDocument{
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public AuthScope getScope() {
