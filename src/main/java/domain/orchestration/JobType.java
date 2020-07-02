@@ -2,5 +2,7 @@ package domain.orchestration;
 
 public enum JobType {
     Unknown,
-    HistoricalDataLoader
+    HistoricalDataLoader,
+    DailyDataLoader,
+
 }
