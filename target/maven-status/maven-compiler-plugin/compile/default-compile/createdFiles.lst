@@ -4,11 +4,13 @@ domain\TimeSerie.class
 runescape\Catalogue.class
 runescape\Item.class
 domain\UserSettings.class
+domain\orchestration\JobStatus.class
 domain\RiskFactorType.class
 runescape\ItemMovement.class
 portfolio\Position.class
 portfolio\Spread.class
 runescape\Pair.class
+domain\orchestration\JobBase.class
 domain\settings\ISetting.class
 portfolio\TradeStatus.class
 runescape\ItemCategory.class
@@ -24,6 +26,7 @@ runescape\Trend.class
 domain\IDocument.class
 portfolio\BuySell.class
 portfolio\Trade.class
+domain\orchestration\IJob.class
 dto\UserDto.class
 domain\User.class
 runescape\UrlConstants.class

@@ -2,6 +2,7 @@ C:\dev\Kraken-Domain\src\main\java\domain\IDocument.java
 C:\dev\Kraken-Domain\src\main\java\portfolio\Spread.java
 C:\dev\Kraken-Domain\src\main\java\dto\ConfigurationDto.java
 C:\dev\Kraken-Domain\src\main\java\portfolio\Position.java
+C:\dev\Kraken-Domain\src\main\java\domain\orchestration\JobBase.java
 C:\dev\Kraken-Domain\src\main\java\runescape\ItemCategory.java
 C:\dev\Kraken-Domain\src\main\java\dto\UserDto.java
 C:\dev\Kraken-Domain\src\main\java\portfolio\TradeStatus.java
@@ -11,6 +12,7 @@ C:\dev\Kraken-Domain\src\main\java\domain\TrackedDocument.java
 C:\dev\Kraken-Domain\src\main\java\runescape\Graph.java
 C:\dev\Kraken-Domain\src\main\java\runescape\LetterGroup.java
 C:\dev\Kraken-Domain\src\main\java\portfolio\HistoricalTrade.java
+C:\dev\Kraken-Domain\src\main\java\domain\orchestration\JobStatus.java
 C:\dev\Kraken-Domain\src\main\java\portfolio\BuySell.java
 C:\dev\Kraken-Domain\src\main\java\runescape\UrlConstants.java
 C:\dev\Kraken-Domain\src\main\java\runescape\Item.java
@@ -26,4 +28,5 @@ C:\dev\Kraken-Domain\src\main\java\portfolio\Trade.java
 C:\dev\Kraken-Domain\src\main\java\runescape\Catalogue.java
 C:\dev\Kraken-Domain\src\main\java\runescape\Pair.java
 C:\dev\Kraken-Domain\src\main\java\domain\TimeSerie.java
+C:\dev\Kraken-Domain\src\main\java\domain\orchestration\IJob.java
 C:\dev\Kraken-Domain\src\main\java\runescape\HistoricalData.java
