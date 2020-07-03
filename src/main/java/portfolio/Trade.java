@@ -1,10 +1,11 @@
 package portfolio;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import domain.TrackedDocument;
 import org.springframework.data.annotation.Id;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Trade extends TrackedDocument {
     @Id
@@ -18,6 +19,11 @@ public class Trade extends TrackedDocument {
     private BuySell buySell;
     private Integer currentQuantity;
     private Float currentTotalPrice;
+    private List<TradeEntry> previousEntries;
+
+    public Trade() {
+        previousEntries = new ArrayList<>();
+    }
 
     public String getId() {
         return id;
@@ -92,10 +98,18 @@ public class Trade extends TrackedDocument {
     }
 
     public Float getCurrentTotalPrice() {
-        return currentTotalPrice;
+        return currentTotalPrice == null ? 0 : currentTotalPrice;
     }
 
     public void setCurrentTotalPrice(Float currentTotalPrice) {
         this.currentTotalPrice = currentTotalPrice;
+    }
+
+    public List<TradeEntry> getPreviousEntries() {
+        return previousEntries;
+    }
+
+    public void setPreviousEntries(List<TradeEntry> previousEntries) {
+        this.previousEntries = previousEntries;
     }
 }
