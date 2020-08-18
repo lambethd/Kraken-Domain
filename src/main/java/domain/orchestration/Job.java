@@ -6,6 +6,7 @@ import java.util.Map;
 public class Job implements IJob {
     private String id;
     private JobStatus status;
+    private int runeDay;
     private JobType jobType;
     private int progress;
     private String username;
@@ -41,6 +42,16 @@ public class Job implements IJob {
     @Override
     public void setStatus(JobStatus status) {
         this.status = status;
+    }
+
+    @Override
+    public int getRuneDay() {
+        return runeDay;
+    }
+
+    @Override
+    public void setRuneDay(int runeDay) {
+        this.runeDay = runeDay;
     }
 
     @Override

@@ -16,6 +16,10 @@ public interface IJob {
 
     void setStatus(JobStatus status);
 
+    int getRuneDay();
+
+    void setRuneDay(int runeDay);
+
     int getProgress();
 
     void setProgress(int progress);
