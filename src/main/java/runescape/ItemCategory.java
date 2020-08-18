@@ -38,5 +38,9 @@ public enum ItemCategory {
     SummoningScrolls,
     ToolsAndContainers,
     WoodcuttingProduct,
-    PocketItems
+    PocketItems,
+    StoneSpirits,
+    Salvage,
+    FiremakingProducts,
+    ArchaeologyMaterials
 }
