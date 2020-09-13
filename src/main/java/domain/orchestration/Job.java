@@ -13,6 +13,7 @@ public class Job implements IJob {
     private LocalDateTime startTime;
     private LocalDateTime finishTime;
     private Map<String, Object> parameters;
+    private String error;
 
     @Override
     public String getId() {
@@ -101,5 +102,15 @@ public class Job implements IJob {
     @Override
     public void setParameters(Map<String, Object> parameters) {
         this.parameters = parameters;
+    }
+
+    @Override
+    public String getError() {
+        return error;
+    }
+
+    @Override
+    public void setError(String error) {
+        this.error = error;
     }
 }

@@ -39,4 +39,8 @@ public interface IJob {
     Map<String, Object> getParameters();
 
     void setParameters(Map<String, Object> parameters);
+
+    String getError();
+
+    void setError(String error);
 }
