@@ -1,12 +1,9 @@
 package dto;
 
 import org.bson.types.ObjectId;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document
-public class ConfigurationDto {
-    @Id
+public class Configuration {
+
     private ObjectId _id;
     private String key;
     private String value;

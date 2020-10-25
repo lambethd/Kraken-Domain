@@ -1,9 +1,12 @@
 package domain.orchestration;
 
+import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBAttribute;
+
 public class JobDependency {
     private JobType jobType;
     private String authScope;
 
+    @DynamoDBAttribute
     public JobType getJobType() {
         return jobType;
     }
@@ -12,6 +15,7 @@ public class JobDependency {
         this.jobType = jobType;
     }
 
+    @DynamoDBAttribute
     public String getAuthScope() {
         return authScope;
     }

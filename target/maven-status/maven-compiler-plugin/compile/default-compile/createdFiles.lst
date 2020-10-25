@@ -31,7 +31,6 @@ runescape\Trend.class
 domain\IDocument.class
 portfolio\BuySell.class
 portfolio\Trade.class
-domain\orchestration\IJob.class
 dto\UserDto.class
 domain\User.class
 portfolio\TradeEntry.class
