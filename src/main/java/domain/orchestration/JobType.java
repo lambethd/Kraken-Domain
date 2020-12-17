@@ -4,5 +4,5 @@ public enum JobType {
     Unknown,
     HistoricalDataLoader,
     DailyDataLoader,
-
+    DashboardDataCreator,
 }
