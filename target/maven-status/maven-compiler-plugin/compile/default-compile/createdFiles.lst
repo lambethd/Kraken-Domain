@@ -1,9 +1,12 @@
+domain\Index.class
 domain\orchestration\JobDependency.class
 domain\AuthScope.class
 domain\settings\FlippingRoiColourSetting.class
+dto\ItemMovementDto.class
 domain\TimeSerie.class
 portfolio\RangeType.class
 runescape\Catalogue.class
+runescape\BuyingLimit.class
 runescape\Event.class
 runescape\Item.class
 domain\UserSettings.class
@@ -32,6 +35,7 @@ domain\IDocument.class
 portfolio\BuySell.class
 portfolio\Trade.class
 domain\orchestration\IJob.class
+domain\DashboardDto.class
 dto\UserDto.class
 domain\User.class
 portfolio\TradeEntry.class

@@ -12,6 +12,7 @@ C:\dev\Kraken-Domain\src\main\java\domain\User.java
 C:\dev\Kraken-Domain\src\main\java\portfolio\Pnl.java
 C:\dev\Kraken-Domain\src\main\java\runescape\Event.java
 C:\dev\Kraken-Domain\src\main\java\domain\TrackedDocument.java
+C:\dev\Kraken-Domain\src\main\java\domain\Index.java
 C:\dev\Kraken-Domain\src\main\java\runescape\Graph.java
 C:\dev\Kraken-Domain\src\main\java\runescape\LetterGroup.java
 C:\dev\Kraken-Domain\src\main\java\domain\orchestration\JobDependency.java
@@ -22,9 +23,11 @@ C:\dev\Kraken-Domain\src\main\java\portfolio\BuySell.java
 C:\dev\Kraken-Domain\src\main\java\runescape\UrlConstants.java
 C:\dev\Kraken-Domain\src\main\java\runescape\Item.java
 C:\dev\Kraken-Domain\src\main\java\runescape\Trend.java
+C:\dev\Kraken-Domain\src\main\java\domain\DashboardDto.java
 C:\dev\Kraken-Domain\src\main\java\domain\TradeType.java
 C:\dev\Kraken-Domain\src\main\java\domain\UserSettings.java
 C:\dev\Kraken-Domain\src\main\java\domain\settings\ISetting.java
+C:\dev\Kraken-Domain\src\main\java\dto\ItemMovementDto.java
 C:\dev\Kraken-Domain\src\main\java\domain\RiskFactorType.java
 C:\dev\Kraken-Domain\src\main\java\domain\AuthScope.java
 C:\dev\Kraken-Domain\src\main\java\runescape\ItemMovement.java
@@ -34,6 +37,7 @@ C:\dev\Kraken-Domain\src\main\java\portfolio\RangeType.java
 C:\dev\Kraken-Domain\src\main\java\runescape\Catalogue.java
 C:\dev\Kraken-Domain\src\main\java\runescape\Pair.java
 C:\dev\Kraken-Domain\src\main\java\domain\TimeSerie.java
+C:\dev\Kraken-Domain\src\main\java\runescape\BuyingLimit.java
 C:\dev\Kraken-Domain\src\main\java\domain\orchestration\IJob.java
 C:\dev\Kraken-Domain\src\main\java\domain\orchestration\JobDetail.java
 C:\dev\Kraken-Domain\src\main\java\runescape\HistoricalData.java

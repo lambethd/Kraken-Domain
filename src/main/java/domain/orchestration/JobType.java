@@ -5,4 +5,6 @@ public enum JobType {
     HistoricalDataLoader,
     DailyDataLoader,
     DashboardDataCreator,
+    DailyGraphLoader,
+    BuyingLimitLoader
 }

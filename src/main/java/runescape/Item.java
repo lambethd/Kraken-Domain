@@ -17,4 +17,5 @@ public class Item implements IDocument {
     public Boolean members;
     public Integer lastUpdatedRuneDay;
     public String wikiName;
+    public Integer buyingLimit;
 }

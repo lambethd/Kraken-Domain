@@ -2,9 +2,11 @@ package domain;
 
 import dto.ItemMovementDto;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 public class DashboardDto {
+    private LocalDateTime created;
     private List<ItemMovementDto> topIncreasesByDailyValue;
     private List<ItemMovementDto> topIncreasesByDailyPercentage;
     private List<ItemMovementDto> topDecreasesByDailyValue;
@@ -96,5 +98,13 @@ public class DashboardDto {
 
     public void setIndexList(List<Index> indexList) {
         this.indexList = indexList;
+    }
+
+    public LocalDateTime getCreated() {
+        return created;
+    }
+
+    public void setCreated(LocalDateTime created) {
+        this.created = created;
     }
 }

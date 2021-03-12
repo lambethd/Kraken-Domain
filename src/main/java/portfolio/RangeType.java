@@ -5,5 +5,6 @@ public enum RangeType {
     YEAR,
     QUARTER,
     MONTH,
-    WEEK
+    WEEK,
+    DAY
 }

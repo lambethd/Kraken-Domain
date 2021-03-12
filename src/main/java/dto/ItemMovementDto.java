@@ -1,12 +1,11 @@
 package dto;
 
-import portfolio.RangeType;
-
 public class ItemMovementDto {
     private Integer itemId;
-    private Float percentageChange;
-    private Long valueChange;
-    private RangeType rangeType;
+    private Float dailyPercentageChange;
+    private Long dailyValueChange;
+    private Float monthlyPercentageChange;
+    private Long monthlyValueChange;
 
     public Integer getItemId() {
         return itemId;
@@ -16,27 +15,35 @@ public class ItemMovementDto {
         this.itemId = itemId;
     }
 
-    public Float getPercentageChange() {
-        return percentageChange;
+    public Float getDailyPercentageChange() {
+        return dailyPercentageChange;
     }
 
-    public void setPercentageChange(Float percentageChange) {
-        this.percentageChange = percentageChange;
+    public void setDailyPercentageChange(Float dailyPercentageChange) {
+        this.dailyPercentageChange = dailyPercentageChange;
     }
 
-    public Long getValueChange() {
-        return valueChange;
+    public Long getDailyValueChange() {
+        return dailyValueChange;
     }
 
-    public void setValueChange(Long valueChange) {
-        this.valueChange = valueChange;
+    public void setDailyValueChange(Long dailyValueChange) {
+        this.dailyValueChange = dailyValueChange;
     }
 
-    public RangeType getRangeType() {
-        return rangeType;
+    public Float getMonthlyPercentageChange() {
+        return monthlyPercentageChange;
     }
 
-    public void setRangeType(RangeType rangeType) {
-        this.rangeType = rangeType;
+    public void setMonthlyPercentageChange(Float monthlyPercentageChange) {
+        this.monthlyPercentageChange = monthlyPercentageChange;
+    }
+
+    public Long getMonthlyValueChange() {
+        return monthlyValueChange;
+    }
+
+    public void setMonthlyValueChange(Long monthlyValueChange) {
+        this.monthlyValueChange = monthlyValueChange;
     }
 }
